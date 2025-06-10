@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DCODE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -14,40 +15,51 @@
 
     <div class="container">
         <header>
-            <h1 class="logo">DCODE</h1>
+            <h1 data-aos="fade-down" data-aos-duration="1500" class="logo">DCODE</h1>
 
             <nav>
-                <a href="#">COMPANY</a>
-                <a href="#">FEATURES</a>
-                <a href="#">RESOURCES</a>
-                <a href="#">DOCS</a>
+                <a data-aos="fade-down" data-aos-duration="1500" href="#">Sobre nós</a>
+                <a data-aos="fade-down" data-aos-duration="2000" href="#">Recursos</a>
+                <a data-aos="fade-down" data-aos-duration="2500" href="#">Guias e Conteúdos</a>
+                <a data-aos="fade-down" data-aos-duration="3000" href="#">Documentação</a>
             </nav>
 
-            <button class="btn-signing">SIGNING</button>
+            <button data-aos="fade-down" data-aos-duration="1500" class="btn-signing">Entrar</button>
         </header>
 
         <main>
             <div class="content">
-                <div class="tag-box">
-                    <div class="tag">INTRUCING &wedbar;</div>
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="1500" class="tag-box">
+                    <div class="tag">Conheça a novidade &wedbar;</div>
                 </div>
 
-                <h1>E-MAIL PARA <br>DEVS </h1>
-                <p class="description">
+                <h1 data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="2000">E-MAIL PARA <br>DEVS </h1>
+                <p data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="2500" class="description">
                     Conecte-se com pessoas, não com a pasta de spam. Envie seus e-mails com eficiência e alcance em
                     larga
                     escala.
                 </p>
-                <div class="buttons">
+                <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+                    data-aos-duration="3000" class="buttons">
                     <a href="#" class="btn-get-started">Documentação &gt;</a>
-                    <a href="#" class="btn-signing-main">Iniciar agora &gt;</a>
+                    <a href="#" class="btn-signing-main">Iniciar &gt;</a>
                 </div>
             </div>
         </main>
 
-        <spline-viewer class="robot-3d" url="https://prod.spline.design/MATj-17HY5NPbA01/scene.splinecode"></spline-viewer>
+        <spline-viewer data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0"
+            data-aos-duration="3000" class="robot-3d"
+            url="https://prod.spline.design/MATj-17HY5NPbA01/scene.splinecode"></spline-viewer>
     </div>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.2/build/spline-viewer.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
